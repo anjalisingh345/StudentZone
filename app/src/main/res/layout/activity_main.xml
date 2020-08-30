@@ -34,51 +34,50 @@
         android:layout_height="wrap_content"
         android:id="@+id/back"
         android:src="@drawable/ic_baseline_arrow_back_24"></ImageView>
+    <EditText
+        android:id="@+id/clientnum"
 
+        android:background="@drawable/buttonbg"
+
+        android:padding="5dp"
+        android:inputType="phone"
+        android:hint="Enter Client Mobile Number"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textColor="@android:color/black"
+
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/valinum"
+        android:textColorHint="@color/black"
+        android:background="@drawable/buttonbg"
+        android:textColorHighlight="@color/colorAccent"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:textAllCaps="false"
+        android:inputType="phone"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/clientnum"
+        android:hint="Validate Mobile Number"
+       android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textAlignment="center"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/shortcut"
+        android:layout_below="@id/valinum"
        android:id="@+id/linear"
 
         android:layout_margin="40dp"
         android:orientation="vertical">
-
-        <EditText
-            android:id="@+id/clientnum"
-
-            android:background="@drawable/buttonbg"
-
-            android:padding="5dp"
-            android:inputType="phone"
-            android:hint="Enter Client Mobile Number"
-            android:layout_width="200dp"
-            android:layout_height="40dp"
-            android:textAllCaps="false"
-            android:textAlignment="center"
-            android:textColorHint="@color/black"
-            android:textColor="@android:color/black"
-
-            android:textSize="15dp"/>
-
-        <EditText
-            android:id="@+id/valinum"
-            android:textColorHint="@color/black"
-            android:background="@drawable/buttonbg"
-            android:textColorHighlight="@color/colorAccent"
-            android:layout_width="180dp"
-            android:layout_height="40dp"
-            android:textAllCaps="false"
-            android:inputType="phone"
-            android:layout_marginTop="20dp"
-            android:padding="5dp"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@+id/clientnum"
-            android:hint="Validate Mobile Number"
-            android:textColor="@color/black"
-            android:textSize="15dp"
-            android:textAlignment="center"/>
 
     <EditText
         android:id="@+id/pgname"
