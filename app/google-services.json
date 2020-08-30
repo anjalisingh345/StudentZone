@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "268619811783",
+    "firebase_url": "https://astudentzone.firebaseio.com",
+    "project_id": "astudentzone",
+    "storage_bucket": "astudentzone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268619811783:android:dd4efade57a74cd00667e2",
+        "android_client_info": {
+          "package_name": "com.example.astudentzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268619811783-m0trrrivb318v8t36h3dde57ado877jg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.astudentzone",
+            "certificate_hash": "bb7cbcc8d1ad87841831e741e6fe1ac9df28ceea"
+          }
+        },
+        {
+          "client_id": "268619811783-sqb9c9aargbbohsjge81hit5gfipg07l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6fb5Sxh6N-FrwIaf-64hmemIy2IX4ZIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268619811783-sqb9c9aargbbohsjge81hit5gfipg07l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
